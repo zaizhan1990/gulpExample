@@ -1,21 +1,22 @@
 # gulpExample
-gulp &amp;&amp; require.js 使用实例  
+## gulp &amp;&amp; require.js 使用实例
 
 
 ---------  --------- --------- 亲测实例 ----------- --------- --------- 
 
-@  gulp使用简单方便  性能效率都很不错  现在什么都流行框架模块式开发 看上去也是高大上  现在不会框架模块式开发  
-不懂node.js gulp.js require.js  AngularJS Vue.js  React.js 你就还是个菜鸟  nodejs 是一个里程碑，它是服务器语言
-可比作php  我本人是php程序员  但很喜欢前端技术  没事自己就会去看看前端最新流行的框架和技术相关知识  前端学的深 一点不比
-学后台开发的差 下面是步骤
+@  gulp使用简单方便  性能效率都很不错  现在什么都流行框架模块式开发 看上去也是高大上  现在不会框架模块式开发 想更进阶异步 
+就去学现在比较流行的的一些js 如：node.js gulp.js require.js  AngularJS Vue.js  React.js   nodejs 是一个里程碑,
+它是服务器语言 可比作php nodeJs 可以直接连接数据库操作数据 并发性能很高 比较适合做api接口醒目  我本人是php程序员  
+但很喜欢前端技术  没事自己就会去看看前端最新流行的框架和技术相关知识  前端学的深 一点不比学后台开发的差 懂得模块式开发很重要
 
+## 下面是步骤
 
-安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务
+## 安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务
 
 
 请先下载按照 nodejs  NPM是随同NodeJS一起安装的包管理工具 一般按照了nodeJs 就自带了NPM了
 
-1.  npm install -g gulp (全局安装gulp)
+### 1.  npm install -g gulp (全局安装gulp)
   安装完成  试试npm -v  
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/1.png)
   
@@ -23,7 +24,7 @@ gulp &amp;&amp; require.js 使用实例
   
   
   
-2.项目跟目录下 新建package.json文件 ( package.json是基于nodejs项目必不可少的配置文件 ) 
+### 2.项目跟目录下 新建package.json文件 ( package.json是基于nodejs项目必不可少的配置文件 ) 
 
   package.js 内容如下  
     ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/2.png)
@@ -33,11 +34,11 @@ gulp &amp;&amp; require.js 使用实例
    
    
  
-3. npm install gulp 或 npm install --save-dev gulp (项目中单独安装gulp 加 --save-dev 会将gulp写进package.json文件依赖中 )  
+### 3. npm install gulp 或 npm install --save-dev gulp (项目中单独安装gulp 加 --save-dev 会将gulp写进package.json文件依赖中 )  
 
 
 
-4. 项目根目录新建gulpfile.js文件（ 重要  重要  重要 ）
+### 4. 项目根目录新建gulpfile.js文件（ 重要  重要  重要 ）
 
     首先先 安装依赖包: 
       npm install gulp-minify-css （ css压缩依赖包 ）
@@ -80,11 +81,13 @@ gulp &amp;&amp; require.js 使用实例
     
     
     
-    5. 执行gulp命令
-        gulp testLess
-       
+### 5. 执行gulp命令
        
-       ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/4.png)
+       gulp default 
+        
+        执行后 生成 2个编译文件
+        
+        ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/4.png)
     
     
     
