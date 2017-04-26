@@ -82,9 +82,7 @@ gulp &amp;&amp; require.js 使用实例
     
     5. 执行gulp命令
         gulp testLess
-       
-       
-       ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/4.png)
+        ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/4.png)
     
     
     
