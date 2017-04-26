@@ -1,5 +1,5 @@
 # gulpExample
-gulp &amp;&amp; require.js 使用实例  
+#gulp &amp;&amp; require.js 使用实例#
 
 
 ---------  --------- --------- 亲测实例 ----------- --------- --------- 
@@ -10,7 +10,7 @@ gulp &amp;&amp; require.js 使用实例
 学后台开发的差 下面是步骤
 
 
-安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务
+#安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务#
 
 
 请先下载按照 nodejs  NPM是随同NodeJS一起安装的包管理工具 一般按照了nodeJs 就自带了NPM了
@@ -81,8 +81,12 @@ gulp &amp;&amp; require.js 使用实例
     
     
     5. 执行gulp命令
-        gulp testLess
-        ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/4.png)
+       
+       gulp default 
+        
+        执行后 生成 2个编译文件
+        
+        ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/4.png)
     
     
     
