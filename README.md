@@ -3,7 +3,10 @@
 
 
 ---------  --------- --------- 亲测实例 ----------- --------- --------- 
+<br/>
+
 本例子 使用了gulp合并文件压缩打包  使用init.js引入加载require.js  require.js在导入打包的js文件
+<br/>
   html页面
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/6.png)
  
