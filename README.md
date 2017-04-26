@@ -5,18 +5,18 @@
 ---------  --------- --------- 亲测实例 ----------- --------- --------- 
 <br/>
 
-本例子 使用了gulp合并文件压缩打包  使用init.js引入加载require.js  require.js在导入打包的js文件
+#### 本例子 使用了gulp合并文件压缩打包  使用init.js引入加载require.js  require.js在导入打包的js文件
 <br/>
-  html页面
+####  html页面<br/>
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/6.png)
  
-  加载的文件
+#### 加载的文件<br/>
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/5.png)
   
-  压缩的js文件
+#### 压缩的js文件<br/>
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/7.png)
   
-  压缩的css文件
+#### 压缩的css文件<br/>
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/8.png)
 
 
