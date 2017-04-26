@@ -1,5 +1,5 @@
 # gulpExample
-#gulp &amp;&amp; require.js 使用实例#
+## gulp &amp;&amp; require.js 使用实例
 
 
 ---------  --------- --------- 亲测实例 ----------- --------- --------- 
@@ -10,12 +10,12 @@
 学后台开发的差 下面是步骤
 
 
-#安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务#
+## 安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务
 
 
 请先下载按照 nodejs  NPM是随同NodeJS一起安装的包管理工具 一般按照了nodeJs 就自带了NPM了
 
-1.  npm install -g gulp (全局安装gulp)
+### 1.  npm install -g gulp (全局安装gulp)
   安装完成  试试npm -v  
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/1.png)
   
@@ -23,7 +23,7 @@
   
   
   
-2.项目跟目录下 新建package.json文件 ( package.json是基于nodejs项目必不可少的配置文件 ) 
+### 2.项目跟目录下 新建package.json文件 ( package.json是基于nodejs项目必不可少的配置文件 ) 
 
   package.js 内容如下  
     ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/2.png)
@@ -33,11 +33,11 @@
    
    
  
-3. npm install gulp 或 npm install --save-dev gulp (项目中单独安装gulp 加 --save-dev 会将gulp写进package.json文件依赖中 )  
+### 3. npm install gulp 或 npm install --save-dev gulp (项目中单独安装gulp 加 --save-dev 会将gulp写进package.json文件依赖中 )  
 
 
 
-4. 项目根目录新建gulpfile.js文件（ 重要  重要  重要 ）
+### 4. 项目根目录新建gulpfile.js文件（ 重要  重要  重要 ）
 
     首先先 安装依赖包: 
       npm install gulp-minify-css （ css压缩依赖包 ）
@@ -80,7 +80,7 @@
     
     
     
-    5. 执行gulp命令
+  ### 5. 执行gulp命令
        
        gulp default 
         
