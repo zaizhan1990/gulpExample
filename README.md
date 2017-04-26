@@ -5,11 +5,17 @@
 ---------  --------- --------- 亲测实例 ----------- --------- --------- 
 <br/>
 
-#### 本例子 使用了gulp合并文件压缩打包  使用init.js引入加载require.js  require.js在导入打包的js文件
-<br/>
+@  gulp使用简单方便  性能效率都很不错  现在什么都流行框架模块式开发 看上去也是高大上  现在不会框架模块式开发 想更进阶异步 
+就去学现在比较流行的的一些js 如：node.js gulp.js require.js  AngularJS Vue.js  React.js   nodejs 是一个里程碑,
+它是服务器语言 可比作php nodeJs 可以直接连接数据库操作数据 并发性能很高 比较适合做api接口醒目  我本人是php程序员  
+但很喜欢前端技术  没事自己就会去看看前端最新流行的框架和技术相关知识  前端学的深 一点不比学后台开发的差 懂得模块式开发很重要
+
+
+#### 本例子 使用了gulp合并文件压缩打包  使用init.js引入加载require.js  require.js在导入打包的js文件<br/>
+
 ####  html页面<br/>
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/6.png)
- 
+  
 #### 加载的文件<br/>
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/5.png)
   
@@ -20,10 +26,6 @@
   ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/8.png)
 
 
-@  gulp使用简单方便  性能效率都很不错  现在什么都流行框架模块式开发 看上去也是高大上  现在不会框架模块式开发 想更进阶异步 
-就去学现在比较流行的的一些js 如：node.js gulp.js require.js  AngularJS Vue.js  React.js   nodejs 是一个里程碑,
-它是服务器语言 可比作php nodeJs 可以直接连接数据库操作数据 并发性能很高 比较适合做api接口醒目  我本人是php程序员  
-但很喜欢前端技术  没事自己就会去看看前端最新流行的框架和技术相关知识  前端学的深 一点不比学后台开发的差 懂得模块式开发很重要
 
 ## 下面是步骤
 
