@@ -12,6 +12,7 @@ gulp &amp;&amp; require.js 使用实例
 
 1.  npm install -g gulp (全局安装gulp)
   安装完成  试试npm -v  
-  https://github.com/zaizhan1990/gulpExample/blob/master/step/1.png
+  ![image](https://github.com/zaizhan1990/gulpExample/blob/master/step/1.png)
   
+ 
 2. npm install gulp 或 npm install --save-dev gulp (项目中单独安装gulp)  
